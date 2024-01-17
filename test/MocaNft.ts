@@ -31,7 +31,7 @@ describe('MocaNft', function () {
   }
 
   describe('Minting', function () {
-    it('Owner should be able to mint RRCNFT token', async function () {
+    it('Owner should be able to mint MocaNFT token', async function () {
       const { mocaNft, owner } = await loadFixture(deployMocaNFTFixture);
 
       const mintTx = await mocaNft.mintTo(owner.address, '');
