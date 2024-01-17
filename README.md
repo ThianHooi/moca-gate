@@ -69,7 +69,7 @@ yarn run test
 ## Test results
 ```markdown
     Minting
-      ✔ Owner should be able to mint RRCNFT token (421ms)
+      ✔ Owner should be able to mint MocaNFT token (421ms)
       ✔ Non-owner should not be able to mint Moca NFT token
       ✔ Owner should be able to mint Moca NFT token to another account
     Staking
